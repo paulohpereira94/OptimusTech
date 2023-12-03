@@ -1,0 +1,67 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.vagas__span {
+    background: var(--vermelho-transparente);
+    color: var(--vermelho);
+    font-size: 0.87rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+}
+
+.vagas__titulo {
+    color: var(--azul-escuro);
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 1.25rem 0;
+}
+
+.vagas__texto {
+    color: var(--cinza);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.vagas__imagem {
+    margin-top: 4rem;
+}
+
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
+    align-items: center;
+}
+
+.vagas__setor {
+    color: var(--azul-escuro);
+    font-size: 1.25rem;
+    width: 48rem;
+    margin-top: 4rem;
+}
+
+.vagas__card {
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    width: 48rem;
+}
+
+.vagas__funcao {
+    color: var(--azul-escuro);
+    font-size: 1.125rem;
+}
+
+.vagas__salario {
+    color: var(--cinza);
+    padding-top: 2rem;
+}
+
+.faixa {
+    margin-left: 1.5rem;
+}

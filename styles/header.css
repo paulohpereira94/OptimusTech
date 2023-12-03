@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 7rem;
+}
+
+.links {
+    position: absolute;
+    padding-left: 15%;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 2rem;
+}
+
+button {
+    padding: 0.6rem 1.1rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-radius: 8px;
+    color: var(--cinza);
+}
+
+button#cadastrar {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
